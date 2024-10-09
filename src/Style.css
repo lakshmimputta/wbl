@@ -1,0 +1,42 @@
+.carousel-container{
+    background-color: aqua;
+    max-width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    height: 500px;
+}
+.heading{
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    margin-bottom: 30px;
+    color:black; 
+}
+.image{
+    object-fit:cover;
+    width: 100%; 
+    max-height: 400px;
+    border-radius: 10px; 
+}
+.slick-prev ,
+.slick-next {
+  background-color :purple; 
+  color:blue;
+  border-radius: 50%; 
+  width: 60px ;
+  height: 60px ;
+  z-index: 1;
+}
+.slick-prev:hover,
+.slick-next:hover {
+  background-color:red !;
+ }
+
+.slick-dots li button:before {
+  color: #333; 
+}
+
+.slick-dots li.slick-active button:before {
+  color: #555; 
+}
